@@ -33,8 +33,7 @@ public class Slide38 {
         System.out.println("list :");
         showList(list);
     }
-    public static void showList(LindedList<
-    String> list){
+    public static void showList(LindedList<String> list){
         for(String obj : list){
             System.out.println("\t" + obj + ",");
         }
