@@ -29,7 +29,6 @@ public class SinhVien {
                svm.put(sv.lop, newSinhVien);
           }
      }
-     //Hiển thị những sinh viên thuộc Lớp vừa nhập, sd value là 1 list để tránh việc Overriding
      public static void DsSvThuocLopVuaNhap(Map<String, List<SinhVien>> svm) {
           Scanner sc = new Scanner(System.in);
           System.out.print("Nhap ten lop cua sinh vien: ");
